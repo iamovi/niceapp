@@ -16,7 +16,7 @@ Go to the cloned directory and Open terminal as Administrator.
 Then type:
 
 ```bash
-npm i
+npm install
 ```
 
 **Step 03**
@@ -48,7 +48,7 @@ npm run boom
 
 run this command to build your App (.exe)
 
-- Now open `dist` dicrectory, you will see your `.exe` file. CHILL.
+- Now open `dist` dicrectory, you will see your `.exe` file. KOOl?
 
 ---
 
