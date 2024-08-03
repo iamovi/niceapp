@@ -23,11 +23,13 @@ npm i
 
 Copy your Web files (html, css, js, assets, etc) and paste it to `public` folder.
 
-And open `icon` folder and add your app icon.
+And open `icon` folder and Replace the default icon with your own app icon.
 
 **Step 04**
 
 Open `package.json` file and update as your needs.
+
+- Customize it according to your application’s needs. Update details like name, version, description, author, and other metadata.
 
 **Step 05**
 
