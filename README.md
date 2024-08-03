@@ -63,5 +63,3 @@ run this command to build your App (.exe)
 Feel free to reach me if you encounter any problem,
 
 fornet.ovi@gmail.com
-
-
