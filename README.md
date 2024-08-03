@@ -55,9 +55,9 @@ When you're done doing all settings,
 npm run boom
 ```
 
-run this command to build your App (.exe)
+run this command to build your App.
 
-- Now open `dist` dicrectory, you will see your `.exe` file. KOOl?
+- Now open `dist` dicrectory, you will see your `App` file. KOOl?
 
 ---
 
