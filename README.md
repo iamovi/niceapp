@@ -80,7 +80,9 @@ npm run boom
 
 run this command to build your App.
 
-- Now open `dist` dicrectory, you will see your `App` file. KOOl?
+- Now open `dist` dicrectory, you will see your `App` file.
+
+![dist_preview_linux](./dist_preview/pp.png)
 
 ---
 
