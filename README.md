@@ -1,6 +1,15 @@
 Hi,
 
-This project will help you to create your Frontend Web to a  Windows App (.exe) with few steps using [Electron](https://www.electronjs.org/).
+This project will help you to create your Frontend Web to a Desktop App with few steps using [Electron](https://www.electronjs.org/).
+
+**Available Platform**
+
+- Windows .exe
+- Linux .deb / .rpm
+
+Run from Windows environment to create .exe ,
+
+Run from Linux environment to create .deb / .rpm .
 
 **Step 01**
 
