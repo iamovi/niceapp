@@ -82,7 +82,13 @@ run this command to build your App.
 
 - Now open `dist` dicrectory, you will see your `App` file.
 
-![dist_preview_linux](./dist_preview/pp.png)
+![dist_preview_linux](./dist_preview/linux.png)
+
+![dist_preview_windows](./dist_preview/windows.png)
+
+![dist_preview_windows_installation](./dist_preview/win_installation.png)
+
+***KOOL?***
 
 ---
 

@@ -25,7 +25,7 @@
     "win": {
       "target": "nsis",
       "icon": "build/icon.png",
-      "artifactName": "niceexe"
+      "artifactName": "niceexe.exe"
     },
     "linux": {
       "target": ["deb", "rpm"],
