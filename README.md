@@ -31,6 +31,13 @@ Open `package.json` file and update as your needs.
 
 **Step 05**
 
+Run,
+
+```bash
+npm start
+```
+to check test your App.
+
 When you're done doing all settings,
 
 ```bash
