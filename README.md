@@ -7,9 +7,32 @@ This `niceapp` project will help you to create your Frontend Web to a Desktop Ap
 - Windows .exe
 - Linux .deb / .rpm
 
-Run from Windows environment to create .exe ,
+- Run from Windows environment to create .exe ,
 
-Run from Linux environment to create .deb / .rpm .
+- Run from Linux environment to create .deb / .rpm .
+
+Before proceeding in linux distro, make sure you do these necessary things,
+
+***On .rpm based distro:***
+
+```bash
+# Install alien
+sudo dnf install alien           # On Fedora
+sudo yum install alien           # On CentOS
+
+# Install dpkg
+sudo dnf install dpkg            # On Fedora
+sudo yum install dpkg            # On CentOS
+```
+
+***On .deb based distro***
+
+```bash
+sudo apt-get update
+sudo apt-get install rpm
+```
+
+---
 
 **Step 01**
 
@@ -22,7 +45,7 @@ git clone https://github.com/iamovi/niceapp.git
 
 Go to the cloned directory and Open terminal as Administrator.
 
-Then type:
+Then run:
 
 ```bash
 npm install

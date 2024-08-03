@@ -10,9 +10,12 @@
     "exe",
     "nice"
   ],
-  "author": "Maruf Ovi",
+  "author": {
+    "name": "Maruf Ovi",
+    "email": "fornet.ovi@gmail.com"
+  },
   "license": "MIT",
-  "description": "a project to create .exe with electron.",
+  "description": "A project to create .exe with Electron.",
   "devDependencies": {
     "electron": "^31.3.1",
     "electron-builder": "^24.13.3"
@@ -22,12 +25,13 @@
     "win": {
       "target": "nsis",
       "icon": "build/icon.png",
-      "artifactName": "niceexe.exe"
+      "artifactName": "niceexe"
     },
     "linux": {
       "target": ["deb", "rpm"],
       "icon": "build/icon.png",
-      "category": "Utility"
+      "category": "Utility",
+      "maintainer": "Maruf Ovi <fornet.ovi@gmail.com>"
     },
     "nsis": {
       "oneClick": false,
