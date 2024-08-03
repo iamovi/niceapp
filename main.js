@@ -1,13 +1,12 @@
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
 
-function createWindow () {
+function createWindow() {
     const mainWindow = new BrowserWindow({
         width: 1090,
         height: 700,
         autoHideMenuBar: true, // Automatically hide the menu bar
         webPreferences: {
-            preload: path.join(__dirname, 'preload.js'),
             contextIsolation: true,
             enableRemoteModule: false,
             nodeIntegration: false,
