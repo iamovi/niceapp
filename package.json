@@ -20,7 +20,7 @@
     "appId": "com.iamovi.niceexe",
     "win": {
       "target": "nsis",
-      "icon": "icon/icon.jpg",
+      "icon": "build/icon.png",
       "artifactName": "niceexe.exe"
     },
     "nsis": {

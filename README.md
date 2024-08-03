@@ -23,7 +23,7 @@ npm install
 
 Copy your Web files (html, css, js, assets, etc) and paste it to `public` folder.
 
-And open `icon` folder and Replace the default icon with your own app icon.
+And open `build` folder and Replace the default icon with your own app icon.
 
 **Step 04**
 
