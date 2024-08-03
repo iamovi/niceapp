@@ -1,6 +1,6 @@
 Hi,
 
-This project will help you to create your Frontend Web to a Desktop App with few steps using [Electron](https://www.electronjs.org/).
+This `niceapp` project will help you to create your Frontend Web to a Desktop App with few steps using [Electron](https://www.electronjs.org/).
 
 **Available Platform**
 
@@ -16,7 +16,7 @@ Run from Linux environment to create .deb / .rpm .
 Clone this repository:
 
 ```bash
-https://github.com/iamovi/niceexe.git
+git clone https://github.com/iamovi/niceapp.git
 ```
 **Step 02**
 
@@ -45,7 +45,7 @@ Open `package.json` file and update as your needs.
 Run,
 
 ```bash
-npm start
+npm run go
 ```
 to check test your App.
 
