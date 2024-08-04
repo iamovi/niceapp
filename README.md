@@ -5,7 +5,8 @@ This `niceapp` project will help you to create your Frontend Web to a Desktop Ap
 **Available Platform**
 
 - Windows .exe
-- Linux .deb / .rpm and AppImage
+- Linux .deb / .rpm and .AppImage
+- macOS .dmg / .pkg
 
 - Run from Windows environment to create .exe ,
 
@@ -45,6 +46,8 @@ chmod +x niceexe.AppImage
 ```
 
 ---
+
+Let's build App,
 
 **Step 01**
 

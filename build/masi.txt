@@ -23,21 +23,15 @@
   "build": {
     "appId": "com.iamovi.niceexe",
     "win": {
-      "target": "nsis",
+      "target": ["nsis", "msi"],
       "icon": "build/icon.png",
-      "artifactName": "niceexe.exe"
+      "artifactName": "niceexe.${ext}"
     },
     "linux": {
       "target": ["AppImage", "deb", "rpm"],
       "icon": "build/icon.png",
       "category": "Utility",
       "maintainer": "Maruf Ovi <fornet.ovi@gmail.com>"
-    },
-    "mac": {
-      "target": ["dmg", "zip"],
-      "icon": "build/icon.icns",
-      "category": "public.app-category.utilities",
-      "artifactName": "niceexe-${version}.${ext}"
     },
     "nsis": {
       "oneClick": false,
@@ -46,6 +40,9 @@
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
       "license": "LICENSE"
+    },
+    "msi": {
+      "perMachine": true
     },
     "directories": {
       "buildResources": "build"
@@ -58,3 +55,4 @@
     ]
   }
 }
+
