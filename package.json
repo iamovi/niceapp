@@ -23,9 +23,9 @@
   "build": {
     "appId": "com.iamovi.niceexe",
     "win": {
-      "target": "nsis",
+      "target": ["nsis", "msi"],
       "icon": "build/icon.png",
-      "artifactName": "niceexe.exe"
+      "artifactName": "niceexe.${ext}"
     },
     "linux": {
       "target": ["AppImage", "deb", "rpm"],

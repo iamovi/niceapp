@@ -1,58 +1,6 @@
-{
-  "name": "niceexe",
-  "version": "1.0.0",
-  "main": "main.js",
-  "scripts": {
-    "go": "electron .",
-    "boom": "electron-builder"
-  },
-  "keywords": [
-    "exe",
-    "nice"
-  ],
-  "author": {
-    "name": "Maruf Ovi",
-    "email": "fornet.ovi@gmail.com"
-  },
-  "license": "MIT",
-  "description": "A project to create .exe with Electron.",
-  "devDependencies": {
-    "electron": "^31.3.1",
-    "electron-builder": "^24.13.3"
-  },
-  "build": {
-    "appId": "com.iamovi.niceexe",
+
     "win": {
       "target": ["nsis", "msi"],
       "icon": "build/icon.png",
       "artifactName": "niceexe.${ext}"
     },
-    "linux": {
-      "target": ["AppImage", "deb", "rpm"],
-      "icon": "build/icon.png",
-      "category": "Utility",
-      "maintainer": "Maruf Ovi <fornet.ovi@gmail.com>"
-    },
-    "nsis": {
-      "oneClick": false,
-      "perMachine": true,
-      "allowToChangeInstallationDirectory": true,
-      "createDesktopShortcut": true,
-      "createStartMenuShortcut": true,
-      "license": "LICENSE"
-    },
-    "msi": {
-      "perMachine": true
-    },
-    "directories": {
-      "buildResources": "build"
-    },
-    "extraResources": [
-      {
-        "from": "LICENSE",
-        "to": "LICENSE"
-      }
-    ]
-  }
-}
-

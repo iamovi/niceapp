@@ -4,7 +4,7 @@ This `niceapp` project will help you to create your Frontend Web to a Desktop Ap
 
 **Available Platform**
 
-- Windows .exe
+- Windows .exe and .msi
 - Linux .deb / .rpm and .AppImage
 - macOS .dmg / .pkg
 
