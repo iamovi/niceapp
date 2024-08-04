@@ -5,7 +5,7 @@ This `niceapp` project will help you to create your Frontend Web to a Desktop Ap
 **Available Platform**
 
 - Windows .exe
-- Linux .deb / .rpm
+- Linux .deb / .rpm and AppImage
 
 - Run from Windows environment to create .exe ,
 
@@ -30,6 +30,18 @@ sudo yum install dpkg            # On CentOS
 ```bash
 sudo apt-get update
 sudo apt-get install rpm
+```
+
+And .AppImage can run in both .rpm / .deb based distro,
+
+Here is how to run .AppImage:
+
+```bash
+chmod +x niceexe.AppImage
+```
+
+```bash
+./niceexe.AppImage
 ```
 
 ---

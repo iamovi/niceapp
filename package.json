@@ -28,7 +28,7 @@
       "artifactName": "niceexe.exe"
     },
     "linux": {
-      "target": ["deb", "rpm"],
+      "target": ["AppImage", "deb", "rpm"],
       "icon": "build/icon.png",
       "category": "Utility",
       "maintainer": "Maruf Ovi <fornet.ovi@gmail.com>"
