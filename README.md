@@ -8,9 +8,11 @@ This `niceapp` project will help you to create your Frontend Web to a Desktop Ap
 - Linux .deb / .rpm and .AppImage
 - macOS .dmg / .pkg
 
-- Run from Windows environment to create .exe ,
+- ***Run from Windows environment to create .exe ,***
 
-- Run from Linux environment to create .deb / .rpm .
+- ***Run from Linux environment to create .deb / .rpm ,***
+
+- ***Run from macOS to create .dmg / .pkg .***
 
 Before proceeding in linux distro, make sure you do these necessary things,
 
