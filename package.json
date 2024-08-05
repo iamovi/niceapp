@@ -22,20 +22,21 @@
   },
   "build": {
     "appId": "com.iamovi.niceexe",
+    "productName": "T-Rex Runner",
     "win": {
       "target": ["nsis", "msi"],
       "icon": "build/icon.png",
-      "artifactName": "niceexe.${ext}"
+      "artifactName": "niceexeSetup.${ext}"
     },
     "linux": {
       "target": ["AppImage", "deb", "rpm"],
-      "icon": "build/icon.png",
+      "icon": "build/linux/png",
       "category": "Utility",
       "maintainer": "Maruf Ovi <fornet.ovi@gmail.com>"
     },
     "mac": {
       "target": ["dmg", "zip"],
-      "icon": "build/icon.icns",
+      "icon": "build/mac/icon.icns",
       "category": "public.app-category.utilities",
       "artifactName": "niceexe-${version}.${ext}"
     },
