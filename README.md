@@ -49,7 +49,9 @@ chmod +x niceexe.AppImage
 
 ---
 
-Let's build App,
+## Let's build App,
+
+***[Click here](https://youtu.be/ty12n84p4Fs?si=HPyNhtYxRI1uwt0k) to watch `niceapp` video tutorial.***
 
 **Step 01**
 
