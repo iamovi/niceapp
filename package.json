@@ -22,7 +22,7 @@
   },
   "build": {
     "appId": "com.iamovi.niceexe",
-    "productName": "T-Rex Runner",
+    "productName": "NiceExe",
     "win": {
       "target": ["nsis", "msi"],
       "icon": "build/icon.png",
